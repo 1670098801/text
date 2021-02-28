@@ -1,0 +1,73 @@
+.zhiboyou{
+    float: left;
+    width: 30%;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+.zhiboyou li{
+display: block;
+position: absolute;
+top:0;
+width: 100%;
+height: 100%;
+}
+.zhiboyou li img{
+float: left;
+position: absolute;
+top: 0px;
+width: 100%;
+height: 100%;
+}
+.active1{
+z-index: 8;
+}
+.circles1{
+position: absolute;
+bottom: 0px;
+right: 0px;
+background-color: gainsboro;
+opacity: .5;
+width: 100%;
+height: 20%;
+z-index: 9;
+}
+.circles1 li{
+position: relative;
+right: 0px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.719);
+width: 20px;
+height: 20px;
+display: inline-block;
+left: 80%;
+position: relative;
+top: 30px;
+margin-right: 1%;
+cursor: pointer;
+}
+.activec1{
+background-color: rgba(255, 249, 249, 0.349) !important;
+}
+.back1 {
+    position: absolute;
+    margin-top: 150px;
+    z-index: 9;
+    width: 8%;
+    height: 25%;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    }
+.next1{
+position: absolute;
+margin-top: 150px;
+z-index: 9;
+width: 8%;
+height: 25%;
+border: none;
+opacity: 0;
+cursor: pointer;
+right: 0;
+}
